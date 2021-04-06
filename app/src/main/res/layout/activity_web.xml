@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/web1_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web1:"/>
+
+    <Button
+        android:id="@+id/btn_show_web1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open web1"/>
+
+    <Button
+        android:id="@+id/btn_save_web1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saved data"/>
+
+    <TextView
+        android:id="@+id/web2_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data of web2:"/>
+
+    <Button
+        android:id="@+id/btn_show_web2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open web2"/>
+
+    <Button
+        android:id="@+id/btn_save_web2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save data"/>
+
+    <TextView
+        android:id="@+id/guide_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch:"/>
+
+
+    <Button
+        android:id="@+id/btn_switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch to database activity"/>
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/query_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to show the data in database:"/>
+
+    <Button
+        android:id="@+id/btn_query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show database"/>
+
+    <TextView
+        android:id="@+id/delete_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to clear the database:"/>
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear database"/>
+
+    <Button
+        android:id="@+id/btn_switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch to web activity"/>
+
+</LinearLayout>
